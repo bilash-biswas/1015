@@ -1,0 +1,6 @@
+A = io.read("*n")
+B = io.read("*n")
+C = io.read("*n")
+D = io.read("*n")
+E = math.sqrt((A - C) * (A - C) + (B - D) * (B - D))
+print(string.format( "%.4f", E ))
